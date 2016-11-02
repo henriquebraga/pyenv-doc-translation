@@ -1,4 +1,4 @@
-# Simple Python Version Management: pyenv
+# Gerenciador de Versões Python Simples: pyenv
 
 [![Participe do chat em https://gitter.im/yyuu/pyenv](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yyuu/pyenv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
