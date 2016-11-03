@@ -49,8 +49,8 @@ Esse projeto foi feito a partir de um _fork_ do [rbenv](https://github.com/rbenv
     * [Desinstalando versões do Python](#desinstalando-versoes-do-python)
 * **[Guia de commandos](#guia-de-comandos)**
 * **[Desenvolvimento](#desenvolvimento)**
-  * [Histórico de versões](#historico-de-versoes)
-  * [Licença](#licença)
+  * [Histórico de versões (em inglês)](https://github.com/yyuu/pyenv/blob/master/CHANGELOG.md)
+  * [Licença (em inglês)](https://github.com/yyuu/pyenv/blob/master/LICENSE)
 
 ----
 
