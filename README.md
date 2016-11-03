@@ -64,15 +64,15 @@ pela sua aplicação, e em seguinda passando seus comandos à instalação corre
 
 ### Entendendo o PATH
 
-Quando você roda um comando como `python` or `pip`, seu sistema operacional
+Quando você roda um comando como `python` ou `pip`, seu sistema operacional
 procura em uma lista de diretórios para encontrar um arquivo executável com aquele
-nome. ESsa lista de diretórios está em uma variável de ambiente chamada `PATH`, com um sinal de dois pontos separando cada diretório na lista:
+nome. Essa lista de diretórios está em uma variável de ambiente chamada `PATH`, com um sinal de dois pontos separando cada diretório na lista:
 
     /usr/local/bin:/usr/bin:/bin
 
 
 A busca em diretórios do `PATH` é feita da esquerda para a direita, então um 
-executável encontrado no começo da lista tem prioridade sobre um exectável encontrado no final dela.
+executável encontrado no começo da lista tem prioridade sobre um executável encontrado no final dela.
 Nesse exemplo, a busca acontece primeiro no diretório `/usr/local/bin`, depois no `/usr/bin` e
 por fim no `/bin`.
 
@@ -96,9 +96,9 @@ faz o seguinte:
 
 ### Escolhendo a versão do Python
 
-Quando você executa um shim, o pyenv determinal qual versão do Python usar procurando nos seguintes locais, nesta ordem:
+Quando você executa um shim, o pyenv determina qual versão do Python usar procurando nos seguintes locais, nesta ordem:
 
-1. A variável de ambiente (se especificada) `PYENV_VERSION`. Você pode usar o comando  [`pyenv shell`](COMMANDS.md#pyenv-shell)  para configurar esta variável de ambiente na sua sessã atual do shell.
+1. A variável de ambiente (se especificada) `PYENV_VERSION`. Você pode usar o comando  [`pyenv shell`](COMMANDS.md#pyenv-shell)  para configurar esta variável de ambiente na sua sessão atual do shell.
 
 2. O arquivo específico de aplicação`.python-version` no diretório atual (se presente). Você pode modificar o arquivo do diretório atual `.python-version` com o  [`pyenv local`](COMMANDS.md#pyenv-local)
 
